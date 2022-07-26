@@ -1,5 +1,6 @@
 /* Criar estilos do componente JSS (JavaScript StyleSheet) */
 
+import { green } from '@material-ui/core/colors'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(() => ({

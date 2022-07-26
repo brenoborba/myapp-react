@@ -18,13 +18,13 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <IconButton edge="start" color="inherit" aria-label="menu">
+        <IconButton edge="start" aria-label="menu" color="inherit">
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" className={classes.title}>
           My App
         </Typography>
-        <Button color="inherit">Login</Button>
+        <Button color='inherit'>Login</Button>
         </Toolbar>
     </AppBar>
     
