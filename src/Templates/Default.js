@@ -1,8 +1,7 @@
-
 import Container from '@mui/material/Container'
 import Header from '../partials/Header/Header'
 
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/styles'
 
 const useStyles = makeStyles(() => ({
   container: {
